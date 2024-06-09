@@ -31,7 +31,6 @@ def create_app(test_config=None):
         return "Hello, world!"
 
     from . import db
-
     db.init_app(app)
 
     return app
